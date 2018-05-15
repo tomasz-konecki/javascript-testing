@@ -71,4 +71,4 @@ Object.defineProperty(cat, "fullName", {
   }
 });
 
-console.log(cat.fullName);
+display(cat.fullName);
