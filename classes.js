@@ -10,8 +10,10 @@ class Car {
   }
 }
 
-var car = new Car("Fiat", "red", "2015");
+var car = new Car("Ford", "red", "2015");
 
 car.printInfo();
 
-console.log(car);
+// console.log(car);
+
+console.log(Car.prototype);
